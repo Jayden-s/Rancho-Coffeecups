@@ -1,0 +1,198 @@
+html {
+  font-family: "Sanchez", serif;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.title {
+  font-family: "Sanchez", serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.logo-sml {
+  max-height: 75px;
+  max-width: 75px;
+}
+
+.links {
+  margin: 0;
+  width: 35%;
+  font-family: "Sanchez", serif;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.fill {
+  height: 1000px;
+  width: 99%;
+}
+
+.content {
+  height: 100%;
+}
+
+.content h1 {
+  margin-top: 300px;
+  margin-bottom: 50px;
+  font-family: "Sanchez", serif;
+}
+
+.blurb {
+  margin-bottom: 150px;
+}
+
+.images-2 {
+  width: 95%;
+}
+
+img {
+  width: 100%; /* You can set the dimensions to whatever you want */
+
+  object-fit: contain;
+}
+
+.images-2 img {
+  width: 100%; /* You can set the dimensions to whatever you want */
+
+  object-fit: contain;
+}
+
+.border {
+  border: 1px solid lime;
+}
+
+.info {
+  margin-bottom: 200px;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  height: 700px;
+  width: 100%;
+}
+
+.banner img {
+  height: 100%;
+}
+
+.footer {
+  height: 100%;
+  padding-top: 70px;
+  background-color: #333636;
+  color: white;
+  font-size: 2rem;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.footnote {
+  color: white;
+  height: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.para-text {
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.space {
+  margin-top: 200px;
+}
+
+.imgbar-container {
+  height: 100%;
+  padding-bottom: 25px;
+  background-color: #dae9e9;
+}
+
+.imgbar img {
+  height: 350px;
+}
+
+.img {
+  margin-top: 25px;
+}
+
+.banner-half {
+  height: 300px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("images/half_banner.png");
+}
+
+.banner-container {
+  width: 80%;
+}
+
+.shop-info {
+  width: 80%;
+  font-family: "Sanchez", serif;
+  font-size: 1.5em;
+  margin-top: 100px;
+}
+
+.second-layer {
+  margin-top: 20px;
+}
+
+.shop-container {
+  margin-bottom: 100px;
+}
+
+.shop-item {
+  margin-bottom: 20px;
+}
+
+.shop-text {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.banner-range {
+  height: 300px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("images/range_banner.png");
+}
+
+.highlight-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.highlight-image {
+  height: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.text-format {
+  font-family: "Sanchez", serif;
+  font-size: 1.1em;
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
